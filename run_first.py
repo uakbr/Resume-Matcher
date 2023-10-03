@@ -74,4 +74,4 @@ for file in file_names:
     processor = JobDescriptionProcessor(file)
     success = processor.process()
 logging.info('Parsing of the Job Descriptions is now complete.')
-logging.info('Success now run `streamlit run streamlit_second.py`')
+logging.info('Success now run `streamlit run streamlit_second.py`'
